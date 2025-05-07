@@ -69,7 +69,7 @@ foreach ($notasAlumnos as $nombre => $nota) if ($nota > $media) echo "$nombre, "
 echo "Ejercicio 8:";
 // Ejercicio 8
 $notasAlumnos = ["Paco" => 6, "Lucia" => 8, "Robert" => 9, "Tatiana" => 7, "Carlota" => 5];
-$maxNota = max($notasAlumnos); //nota maximae
+$maxNota = max($notasAlumnos); //nota maxima
 $mejorAlumno = array_search($maxNota, $notasAlumnos); //nombre del mejor
-echo " $mejorAlumno: $maxNota"; //muestra el nombre y la nota
+echo " El alumno con mas nota es $mejorAlumno, con un $maxNota"; //muestra el nombre y la nota
 ?>
